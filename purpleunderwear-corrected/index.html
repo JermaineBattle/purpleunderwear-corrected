@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Purple Underwear</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Purple Underwear</h1>
+            <p>Welcome <span class='name'></span> to the most fun you'll have all day.</p>        
+        </header>
+        <div class='container'>
+            <form onsubmit="appendToTasks()" action="#">
+                <input type="text" id="formInput" placeholder="What needs to be done?"/>
+            </form>
+        </div>
+        <div id='tasks'>
+            <h3>Tasks</h3>
+            <p>You will be editing the following files: index.html, css/main.css and js/app.js.</p>
+            <ol id="taskList"></ol>
+        </div>
+        <script src="js/jquery-1.10.2.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
